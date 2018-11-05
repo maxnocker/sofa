@@ -38,6 +38,10 @@ public class AppTest extends TestCase
     public void testAdd() {
     	assertEquals(6, App.add(3, 3));
     }
+
+    public void testAdd2() {
+        assertEquals(7, App.add(4, 3));
+    }
     
     public void testMult() {
     	assertEquals(6, App.mult(2, 3));
