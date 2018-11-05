@@ -40,6 +40,6 @@ public class AppTest extends TestCase
     }
     
     public void testMult() {
-    	assertEquals(6, App.mult(2, 3));
+    	assertEquals(6, App.mult(2, 4));
     }
 }
